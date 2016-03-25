@@ -6,5 +6,4 @@ dependencies:
   - seaborn
   - h5py
   - notebook
-  - plotly
 
