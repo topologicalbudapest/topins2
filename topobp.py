@@ -36,7 +36,7 @@ def fermion_Fock_matrices(NN=3,dense=False,**kwargs):
     cc=[]
     for p in range(NN):
         cc.append(scsp.dia_matrix((AA[:,p],array([2**p])),shape=(2**NN,2**NN), dtype='d'))
-​
+
     if dense:
         for i in range(NN):
             cc[i]=cc[i].todense()
