@@ -1,9 +1,0 @@
-dependencies:
-  - python=3
-  - numpy
-  - scipy
-  - matplotlib>=1.5
-  - seaborn
-  - h5py
-  - notebook
-
