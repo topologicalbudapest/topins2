@@ -24,8 +24,11 @@ def fermion_Fock_matrices(NN=3,dense=False,**kwargs):
     then a dense representation of the operators
     is returned.
     The binary sequence Fock space representation
-    is used, that is for the case of 3 degrees of freedom
+    is used, that is for the case of 3 fermions
     000,001,010,011,100,101,110,111 is the basis.
+    the more over the convention c[0]|001>=|000>
+    is used that is the fist (0-th) operator
+    acts on the rightmost degree of freedom.
     '''
     
     
